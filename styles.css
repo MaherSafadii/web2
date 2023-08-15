@@ -14,8 +14,8 @@ body {
 
 nav {
   z-index: -2;
-  display: flex;
-  justify-content: space-between;
+  display: flex !important;
+  justify-content: space-between !important;
   padding: 10px 20px;
   background-color: transparent;
   color: #333;   
@@ -184,15 +184,15 @@ h1{
 
 
 .progress {
-  width:230px;
-  height: 4px;
-  background-color: black;
-  position: relative;
-  border-radius: 10px;
+  width:230px !important;
+  height: 4px !important;
+  background-color: black !important;
+  position: relative !important;
+  border-radius: 10px !important;
   overflow: hidden;
 }
 
-.progress-bar {
+.progress-barr {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -201,17 +201,17 @@ h1{
   border-radius: 10px;
 }
 
-.photoshop .progress-bar {
+.photoshop .progress-barr {
   width: 98%;
   background-color: #C52FC6;
 }
 
-.illustrator .progress-bar {
+.illustrator .progress-barr {
   width: 70%;
   background-color: #F1D25D;
 }
 
-.html-css .progress-bar {
+.html-css .progress-barr {
   width: 60%;
   background-color: #2959E1;
 }
